@@ -10,9 +10,9 @@
     ```
     zip -r sitesource.zip *;  mv sitesource.zip /tmp
     ```
-    Then curl it up to freejekyllbuilder.com.  
+    Then curl it up to freejekyllbuilder.com  
     ```
-    curl -F 'doesntmatter=@/tmp/source.zip' freejekyllbuilder.com/upload/mygeneratedusername1
+    curl -F 'doesntmatter=@/tmp/sitesource.zip' freejekyllbuilder.com/upload/mygeneratedusername1
     ```
     Wait for the response, and you are ready to download!   
       
@@ -26,7 +26,7 @@
 - section: Examples
   text: |
     **See these repos for examples of real use cases, including this site!  meta!**    
-    https://github.com/bootladder/freejekyllbuilder-website
+    <https://github.com/bootladder/freejekyllbuilder-website>
       
     To understand this particular site, notice the `.travis.yml` and the `cibuild`.  
     Travis will execute the `cibuild` script.  
