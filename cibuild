@@ -5,4 +5,4 @@ mv sitesource.zip /tmp/
 ls
 curl -F 'lolzzzzz=@/tmp/sitesource.zip' freejekyllbuilder.com/upload/metaself
 sleep 2
-curl freejekyllbuilder.com:9009
+curl freejekyllbuilder.com/metaselfdeploy
