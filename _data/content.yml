@@ -34,4 +34,11 @@
     But notice, instead of downloading the built site, it triggers a webhook.  
     The receiver of that webhook knows the URL to download from.  
     The receiver downloads the built site, unzips, and deploys to the web root.
+       
+    Here's another one <https://github.com/bootladder/blog> , <http://blog.bootladder.com>
+
+- section: Contact me
+  text: |
+    **If you are a human and are reading this, let me know.  It's steve at bootladder, the linked example blog above!**    
+      
 
