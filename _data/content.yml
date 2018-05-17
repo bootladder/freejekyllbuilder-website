@@ -36,6 +36,11 @@
     The receiver downloads the built site, unzips, and deploys to the web root.
        
     Here's another one <https://github.com/bootladder/blog> , <http://blog.bootladder.com>
+    
+    You can even do local builds!  The same
+    script that Travis would run, cibuild,
+    can  be run locally.  Just look at it,
+    it's simple!
 
 - section: Contact me
   text: |
